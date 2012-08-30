@@ -1,0 +1,377 @@
+body
+{	height:100%; /* this is the key! */
+	margin: 0;
+	background-color: #AEB08D;
+	min-width: 900px;
+	min-height: 600px;
+}
+
+#left
+{	width: 18%;
+	height: 100%;
+	/*background-color: gray;*/
+	float: left;
+}
+
+#center
+{	width: 56%; 
+	height: 100%;
+	/*background-color: gray;*/
+	float: left;
+}
+
+#right
+{	width: 18%;
+	height: 100%;
+	/*background-color: gray;*/
+	float: left;
+}
+
+.spacer1
+{	width: 2%;
+	height: 100%;
+	float: left;
+}
+
+.spacer2
+{	width: 100%;
+	height: 5%;
+	float: up;
+}
+
+.spacer3
+{	width: 100%;
+	height: 10px;
+	float: up;
+}
+
+.footer
+{	clear: both;
+}
+	
+#PlayerList
+{	width: 100%;
+	height: 100%;
+	borders: 1px;
+}
+
+#PlayerListTitleContainer
+{	width: 100%;
+	height: 5%;
+	float: up;
+	text-align: center;
+	background-color: #6E735E;
+	display:table;
+}
+
+#PlayerListTitleContent
+{	width: 100%;
+	float: up;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#PlayerListContainer
+{	width: 100%;
+	height: 95%;
+	text-align: center;
+	float: up;
+	background-color: #E6E6D1;
+}
+
+#PlayerListContent
+{	width: 100%;
+	float: up;
+	/*padding: 0 10 0 10;*/
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+.WaitingListBobbleContainer
+{	width: 100%;
+	height: 8%;
+	float: up;
+}
+
+.WaitingListBobbleContainer:hover
+{	background-color: white;
+}
+
+.WaitingListBobbleSpacerVert1
+{	height: 100%;
+	width: 5%;
+	float: left;
+}
+
+.WaitingListBobbleAvatar
+{	height: 100%;
+	width: auto;
+	border: 0px;
+	float: left;
+}
+
+.WaitingListBobbleSpacerVert
+{	height: 100%;
+	width: 5px;
+	float: left;
+}
+
+.WaitingListBobbleTextContainer
+{	width: auto;
+	height: auto;
+	float: left;
+	text-align: left;
+}
+
+.WaitingListBobbleText
+{	width: 100%;
+	height: 100%;
+	float: up;
+}
+
+.WaitingListBobbleSpacer
+{	width: 100%;
+	height: 10px;
+}
+
+#Chat
+{	width: 100%;
+	height: 100%;
+}
+
+#ChatTitleContainer
+{	width: 100%;
+	height: 5%;
+	float: up;
+	text-align: center;
+	background-color: #6E735E;
+	display: table;
+}
+
+#ChatTitleContent
+{	width: 100%;
+	float: up;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#ChatSendContainer
+{	width: 100%;
+	height: 15%;
+	text-align: left;
+	float: up;
+	background-color: #E6E6D1;
+}
+
+#ChatSendContent
+{	width: 100%;
+	float: up;
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+.ChatSendOptions
+{	width: 100%;
+	height: 100%;
+}
+
+.ChatSendOptionsContent
+{	width: 100%;
+	height: 25%;
+}
+
+#waitingChat
+{	display: block;
+}
+
+#ingameChat
+{	display: none;
+}
+
+#ChatContainer
+{	width: 100%;
+	height: 80%;
+	text-align: left;
+	float: up;
+	overflow-y: auto;
+	background-color: #E6E6D1;
+}
+
+#ChatContent
+{	width: 100%;
+	float: up;
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+.PlayerChatBobbleContainer
+{	width: 100%;
+	height: auto;
+	float: up;
+}
+
+.PlayerChatBobbleNick0
+{	width: 30%;
+	text-align: right;
+	float: left;
+}
+
+.PlayerChatBobbleNick1
+{	width: 30%;
+	text-align: right;
+	float: left;
+	font-size: 0.7em;
+}
+
+.PlayerChatBobbleNick2
+{	width: 30%;
+	text-align: right;
+	float: left;
+	font-size: 1.5em;
+}
+
+.PlayerChatBobbleSpacer
+{	width: 3%;
+	height: 5px;
+	float: left;
+}
+
+.PlayerChatBobbleMessage0
+{	width: 61%;
+	height: auto;
+	float: left;
+	word-wrap: break-word;
+	text-align: left;
+}
+
+.PlayerChatBobbleMessage1
+{	width: 61%;
+	height: auto;
+	float: left;
+	word-wrap: break-word;
+	text-align: left;
+	font-size: 0.7em;
+}
+
+.PlayerChatBobbleMessage2
+{	width: 61%;
+	height: auto;
+	float: left;
+	word-wrap: break-word;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.SystemChatBobbleContainer
+{	width: 94%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+.SystemChatBobbleContainer1
+{	width: 94%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+
+#VillageInfo
+{	width: 100%;
+	height: 47.5%;
+}
+
+#VillageInfoTitleContainer
+{	width: 100%;
+	height: 10.53%;
+	float: up;
+	text-align: center;
+	background-color: #6E735E;
+	display: table;
+}
+
+#VillageInfoTitleContent
+{	width: 100%;
+	float: up;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#VillageInfoContainer
+{	width: 100%;
+	height: 89.47%;
+	text-align: left;
+	float: up;
+	background-color: #E6E6D1;
+}
+
+.Options
+{	width: 100%;
+	height: 47.5%;
+	float: up;
+}
+
+.OptionsTitleContainer
+{	width: 100%;
+	height: 10.53%;
+	float: up;
+	text-align: center;
+	background-color: #6E735E;
+	display: table;
+}
+
+.OptionsTitleContent
+{	width: 100%;
+	float: up;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.OptionsContainer
+{	width: 100%;
+	height: 89.47%;
+	text-align: left;
+	float: up;
+	background-color: #E6E6D1;
+}
+
+.IngameOptionsContainer
+{	width: 100%;
+	height: 10.35%;
+	float: up;
+	display: table;
+	/*
+	onMouseOver="this.style.background-color='#0F0'";
+	onMouseOut="this.style.background-color='#00F"
+	*/
+}
+
+.IngameOptionsContainer:hover
+{	background-color: white;
+}
+
+/*
+.IngameOptionsContainer:click
+{	alert("OK");
+}
+*/
+
+.IngameOptionsContent
+{	width: 90%;
+	display: table-cell;
+	vertical-align: middle;
+	float: up;
+	text-align: center;
+}
+
+#WaitOptions
+{	display: block;
+}
+
+#IngameOptions
+{	display: none;
+}

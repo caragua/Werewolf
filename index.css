@@ -1,0 +1,257 @@
+body
+{	height:100%; /* this is the key! */
+	margin: 0;
+	background-color: #AEB08D;
+	min-width: 900px;
+	min-height: 600px;
+}
+
+#left
+{	width: 22%;
+	height: 100%;
+	background-color: gray;
+	float: left;
+}
+
+#center
+{	width: 48%; 
+	height: 100%;
+	background-color: gray;
+	float: left;
+}
+
+#right
+{	width: 22%;
+	height: 100%;
+	/*background-color: gray;*/
+	float: left;
+}
+
+.spacer1
+{	width: 2%;
+	height: 100%;
+	float: left;
+}
+
+.spacer2
+{	width: 100%;
+	height: 5%;
+	float: up;
+}
+
+.spacer3
+{	width: 100%;
+	height: 10px;
+	float: up;
+}
+
+.footer
+{	clear: both;
+}
+
+#PlayersFree
+{	width: 100%;
+	height: 47.5%;
+	borders: 1px;
+}
+
+#PlayersFreeTitle
+{	width: 100%;
+	height: 10.53%;
+	float: up;
+	text-align: center;
+	background-color: #6E735E;
+	display:table;
+}
+
+#PlayersFreeTitleContent
+{	width: 100%;
+	float: up;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#PlayersFreeListing
+{	width: 100%;
+	height: 89.47%;
+	text-align: center;
+	float: up;
+	background-color: #E6E6D1;
+}
+
+#PlayersFreeListingContent
+{	width: 100%;
+	float: up;
+	/*padding: 0 10 0 10;*/
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+.WaitingListBobbleContainer
+{	width: 100%;
+	height: 15%;
+	float: up;
+}
+
+.WaitingListBobbleContainer:hover
+{	background-color: white;
+}
+
+.WaitingListBobbleAvatar
+{	height: 100%;
+	width: auto;
+	border: 0px;
+	float: left;
+}
+
+.WaitingListBobbleSpacerVert
+{	height: 100%;
+	width: 10px;
+	float: left;
+}
+
+.WaitingListBobbleTextContainer
+{	width: auto;
+	height: 100%;
+	float: left;
+	text-align: left;
+	display: table;
+}
+
+.WaitingListBobbleNick
+{	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.WaitingListBobbleSpacer
+{	width: 100%;
+	height: 10px;
+}
+
+
+#PlayersChat
+{	width: 100%;
+	height: 47.5%;
+}
+
+#PlayersChatTitle
+{	width: 100%;
+	height: 10.53%;
+	text-align: center;
+	background-color: #6E735E;
+	display:table;
+	float: up;
+}
+
+#PlayersChatTitleContent
+{	width: 100%;
+	float: up;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#PlayersChatMessages
+{	width: 100%;
+	height: 78.94%;
+	float: up;
+	text-align: left;
+	background-color: #E6E6D1;
+	/*display: table;*/
+}
+
+#PlayersChatMessagesContent
+{	width: 100%;
+	height: 100%;
+	float: up;
+	/*display: table-cell;*/
+	/*vertical-align: top;*/
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+.PlayersChatMessageBobble
+{	width: 100%;
+	height: auto;
+	float: up;
+}
+
+.PlayersChatMessageHeader
+{	width: 100%;
+	height: auto;
+	float: up;
+}
+
+.PlayersChatMessageContentHolder
+{	width: 100%;
+	float: up;
+}
+
+.PlayersChatMessageContent
+{	width: 90%;
+	float: right;
+	word-wrap: break-word;
+	text-align: left;
+}
+
+#PlayersChatMessagesSend
+{	width: 100%;
+	height: 10.53%;
+	float: up;
+	text-align: right;
+	background-color: #E6E6D1;
+	overflow-y: visible;
+}
+
+#PlayersChatMessagesSendContent
+{	width: 100%;
+	float: up;
+}
+
+#PlayersChatLoginContainer
+{	width: 100%;
+	height: 47.5%;
+	display: none;
+	background-color: #E6E6D1;
+}
+
+#PlayersChatLoginTitle
+{	width: 100%;
+	height: 10.53%;
+	text-align: center;
+	background-color: #6E735E;
+	display:table;
+	float: up;
+}
+
+#PlayersChatLoginTitleContent
+{	width: 100%;
+	float: up;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#PlayerRegisterContainer
+{	width: 100%;
+	height: 47.5%;
+	display: none;
+	background-color: #E6E6D1;
+}
+
+#PlayerRegisterTitle
+{	width: 100%;
+	height: 10.53%;
+	text-align: center;
+	background-color: #6E735E;
+	display:table;
+	float: up;
+}
+
+#PlayerRegisterTitleContent
+{	width: 100%;
+	/*height: 89.47%;*/
+	float: up;
+	display:table-cell;
+	vertical-align:middle;
+}

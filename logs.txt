@@ -38,4 +38,4 @@
 	資料庫新增村民、占卜師、狼人的資料以及聊天頻道資訊 (村民 type/channel=0) (占卜 type/channel=0) (狼人 type/channel=1)
 	
 20120828:
-	
+	NA
